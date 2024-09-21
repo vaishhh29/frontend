@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        header{
+            background-color: white;
+            color:black;
+            text-align: left;
+            padding: 20px;
+            font-family: 'cursive';
+            font-style:italic;
+            font-size: 50px;
+            font-weight:bold;
+            margin-left: 200px;
+        }
+        .image{
+          margin-left: 200px;
+          margin-bottom: 0px;
+          margin-top: 30px;
+        }
+        .sidenav a:hover {
+  color:black;
+  background-color: white;
+}
+.sidenav:active {
+  background-color:white;
+  color: black;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  background-color:black;
+  overflow-x: hidden;
+  padding-top: 0;
+}
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  margin-bottom :35px;
+  margin-top: 20px;
+}
+.img2{
+  text-align:right;
+  margin-top: 80px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-left: auto;
+  float: right;
+  margin-left: 100px;
+}
+h2{
+  font-family: 'Times New Roman';
+  font-weight: 300;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 0;
+  font-size: 38px;
+  margin-right: 90px;
+}
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 10px;
+  }
+  .para{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size:18px;
+    margin-left: 390px;
+    margin-top: 1px;
+    line-height: 25px;
+   
+  }
+  .button{
+        background-color:rgb(30, 30, 100);
+        color: white;
+        height: 36px;
+        width: 110px;
+        border: none;
+        margin-left: 300px;
+        flex: 0 0 auto;
+        margin-right:400px;
+        margin-top:1px;
+    }
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      text-align: center;
+      font-size: 24px;
+      padding-top: 10px;
+      color: black;
+      padding-left: 100px;
+      padding-top: 50px;
+      padding-bottom: 70px;
+      padding-right:100px ;
+      text-align: center;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20px;
+    }
+    .imagetx{
+          margin-left: 200px;
+          margin-bottom: 0px;
+          margin-top: 30px;
+          width: 97%;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+    
+        }
+        .p2{
+          font-family: Georgia;
+          font-size: 20px;
+          text-align: center;
+          font-weight:normal ;
+        }
+
+        footer{
+          background-color:rgb(179, 203, 217);
+          color:rgb(3, 3, 3);
+          text-align: center;
+          padding-top: 40px;
+          font-size: 25px;
+          font-family: 'Times New Roman';
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+        h3{
+          font-size: 35px;
+          font-family: 'Times New Roman';
+        }
+   </style>
+    </head>
+    <body>
+        <header>
+         La vie
+        </header>
+        <div class="sidenav">
+            <a href="menu.html">Menu</a>
+            <a href="res.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <body>
+          <img class="image" src="https://static.wixstatic.com/media/4d5ec4_06b14b27a1c048e7888aec09d761cfc7~mv2.jpg/v1/fill/w_1708,h_1069,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4d5ec4_06b14b27a1c048e7888aec09d761cfc7~mv2.jpg" width="87%" height="750px"> 
+            <img class="img2" src="https://static.wixstatic.com/media/4d5ec4_aa7c9635becc4d54a6bc5fe3fecd2fa4~mv2.jpg/v1/fill/w_800,h_1140,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4d5ec4_aa7c9635becc4d54a6bc5fe3fecd2fa4~mv2.jpg" width="450px" height="600px">
+          <div class="text">
+         <h2 >Making Food with<br> a purpose.</h2>
+         <p class="para">As you peep through the spaces between the <br>mullions you’ll discover different facets of the<br> bourgeoisie gourmet popularised by the rise of <br>gastro-tourism. 
+          Brilliant display of colours in food, and <br>seductive flavours and aromas will make your dining experience stand out.<br>
+          <button type="button" onclick="menu()" style="padding-top: 14px; padding-bottom: 14px;padding-left: 20px;padding-right: 20px; background-color:rgb(30, 30, 100);color: white ;margin-top:8px;">View Menu</button>
+          <script>
+              function menu(){
+                  window.location.href="menu.html";
+              }
+              </script></p>
+          </div>
+          <div class="container">
+          <div class="imagetx">
+          <img  src="https://static.wixstatic.com/media/4d5ec4_deaa468bb27642ebbb327e1145ec142f~mv2.jpg/v1/fill/w_1899,h_1240,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/4d5ec4_deaa468bb27642ebbb327e1145ec142f~mv2.jpg" width="100%" height="750px" >
+          <div class="overlay-text">
+            <h3><b>A hundred-year old gateway<br> to good food.<br></h3>
+             <p class="p2"> Named after an antique door acquired from Pondicherry,
+               we as a restaurant <br>are committed to serving cuisine that is
+                delectable yet warm. <br>
+                 <button type="button" onclick="about()" style="padding-top: 15px; padding-bottom: 15px;padding-left: 27px;margin-top:2px;padding-right: 27px; background-color: rgb(30, 30, 100);color: white ;margin-top:11px;font-size: 16px;">About</button>
+                 <script>
+                     function about(){
+                         window.location.href="about.html";
+                     }
+                     </script></p>
+                </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        lavie@gmail.com<br>
+        4th cross street Corso, 
+        Roma, Italy.<br>
+        6845209
+ </footer>
+    </body>
+</html>
